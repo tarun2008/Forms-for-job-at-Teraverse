@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>Fill this for to apply for a job at teraverse</h2>
+    <form action="backend.php">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="role">Role: </label>
+            <input type="text" name="myRole" id="role">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="date">Joining Date: </label>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <div>
+            <label for="bonus">Bonus amount in ₹ : </label>
+            <input type="number" name="mybonus" id="bonus">
+        </div>
+        <br>
+        <div>
+            <label for="eligiblity">Are you Eligible ? : </label>
+            <input type="checkbox" name="myEligiblity" id="eligiblity">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> others <input
+                type="radio" name="myGender">
+
+        </div>
+        <br>
+        <div>
+            <label for="country">Country: </label>
+            <select name="myCountry" id="country">
+                <option value="aus">Austrailia</option>
+                <option value="ban">Bangladesh</option>
+                <option value="ind" selected>India</option>
+                <option value="nam">Namibia</option>
+                <option value="sco">Scotland</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Write about yourself: <br><textarea name="My Text" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+
+    </form>
+</body>
+
+</html>
